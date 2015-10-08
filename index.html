@@ -12,13 +12,13 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]>
     <script src="cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
     <![endif]-->
   </head>
 
   <body>
 
     <header class="header">
+
       <div class="container">
 
         <nav class="gnb">
@@ -341,15 +341,16 @@
         <div class="section_content">
           <form>
             <div class="col_left">
-              <input type="text" class="form_control" placeholder="YOUR NAME *">
-              <input type="eamil" class="form_control" placeholder="YOUR NAME *">
-              <input type="tel" class="form_control" placeholder="YOUR NAME *">
+              <input type="text" placeholder="YOUR NAME *">
+              <input type="eamil" placeholder="YOUR EMAIL *">
+              <input type="tel" placeholder="YOUR PHONE *">
             </div>
               <div class="col_right">
-                <textarea class="form_control" placeholder="YOUR NAME *">
-                </textarea>
+                <textarea placeholder="YOUR MESSAGE *"></textarea>
               </div>
+            <div class="row">
               <button class="submit" type="submit">SEND MESSAGE</button>
+            </div>
           </form>
         </div>
       </div>
@@ -358,7 +359,26 @@
 
 
     <footer class="footer">
-      <p>Copyright &copy; SeongJin All rights reserved.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <span>Copyright &copy; SeongJin All rights reserved.</span>
+          </div>
+          <div class="col">
+            <ul class="footer_icon">
+              <li><a href="#"><i class="fa fa-twitter fa-1x"></i></a></li>
+              <li><a href="#"><i class="fa fa-facebook fa-1x"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin fa-1x"></i></a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class="footer_menu">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
 
 
