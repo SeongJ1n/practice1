@@ -29,6 +29,7 @@ a {
 }
 
 header {
+  width: 100%;
   background: url('../img/header-bg.jpg') center center;
   background-size: cover;
 }
@@ -349,14 +350,14 @@ h4 {
   margin: 0 5px;
   background-color: #333;
   color: #fff;
-}
-
-#team .section_content .col ul li a:hover {
-  background-color: #fed136;
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
+}
+
+#team .section_content .col ul li a:hover {
+  background-color: #fed136;
 }
 
 #team .section_content .row {
@@ -377,8 +378,113 @@ h4 {
 }
 
 
+/* Press */
 
+#press {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
 
+#press .row {
+  width: 100%
+  float: left;
+  overflow: hidden;
+}
 
+#press .row .col {
+  width: 25%;
+  margin: 50px auto;
+}
+
+#press .row .col a {
+  width: 200px;
+  height: 50px;
+}
+
+#press .row .col img {
+  width: 200px;
+  height: 50px;
+}
+
+/* Contact */
+
+#contact {
+  width: 100%;
+  padding: 150px 0;
+  text-align: center;
+  background-color: #222;
+  background-image: url('../img/map-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#contact .section_title h2 {
+  color: #fff;
+}
+
+#contact .section_content .col_left {
+  width: 50%;
+  padding: 0 15px;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
+#contact .section_content .col_left input {
+  display: block;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 30px;
+  border: 0;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
+#contact .section_content .col_right {
+  width: 50%;
+  padding: 0 15px;
+  float: right;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
+#contact .section_content .col_right textarea {
+  display: block;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 30px;
+  border: 0;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
+#contact .section_content button {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  padding: 22px 40px;
+  background-color: #fed136;
+  border-radius: 3px;
+}
+
+#contact .section_content button:hover {
+  background-color: #fec503;
+}
 
 
