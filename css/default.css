@@ -36,61 +36,97 @@ a {
 
 header {
   width: 100%;
-  background: url('../img/header-bg.jpg') center center;
-  background-size: cover;
 }
 
-header .container .gnb {
+header .container {
+  overflow: hidden;
+}
+
+header .gnb {
   position: fixed;
   width: 100%;
   padding: 30px 0;
+  z-index: 9999;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
-header .container .gnb h1 {
+.scroll-gnb {
+  background-color: #222;
+  padding: 10px 0 !important;
+}
+
+.scroll-h1 {
+  font-size: 21px !important;
+}
+
+.active {
+  background-color: #fec503;
+  border-radius: 4px;
+}
+
+header .gnb h1 {
   font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
   display: inline-block;
+  line-height: 43px;
   margin: 0;
 }
 
-header .container .gnb h1 a {
+header .gnb h1 a {
   text-decoration: none;
   color: #fed136;
+  font-size: 28px;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
-header .container .gnb h1 a:hover {
+header .gnb h1 a:hover {
   color: #fec503;
 }
 
-header .container .gnb ul {
+header .gnb ul {
+  display: inline-block;
   margin: 0;
   padding: 0;
-  float:right;
+  float: right;
 }
 
-header .container .gnb ul li {
+header .gnb ul li {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 400px;
   font-size: 14px;
   letter-spacing: 1px;
   float: left;
   list-style: none;
+  line-height: 38px;
+  padding: 5px 15px;
 }
 
-header .container .gnb ul li a {
-  padding: 10px;
+header .gnb ul li a {
   color: #fff;
 }
 
-header .container .gnb ul li a:hover {
+header .gnb ul li a:hover {
   color: #fed136;
 }
 
-header .textbox {
+/* Landing */
+
+#landing {
+  width: 100%;
+  text-align: center;
+  background: url('../img/header-bg.jpg') center center;
+  background-size: cover;
+}
+
+#landing .textbox {
   text-align: center;
   padding: 200px 0 200px;
 }
 
-header .textbox .title {
+#landing .textbox .title {
   font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
   font-size: 75px;
@@ -98,7 +134,7 @@ header .textbox .title {
   margin-bottom: 65px;
 }
 
-header .textbox .subtitle {
+#landing .textbox .subtitle {
   font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-style: italic;
   font-size: 40px;
@@ -106,7 +142,7 @@ header .textbox .subtitle {
   margin-bottom: 12px;
 }
 
-header .textbox a {
+#landing .textbox a {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -116,7 +152,7 @@ header .textbox a {
   border-radius: 3px;
 }
 
-header .textbox a:hover {
+#landing .textbox a:hover {
   background-color: #fec503;
 }
 
