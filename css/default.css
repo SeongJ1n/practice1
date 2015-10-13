@@ -21,10 +21,6 @@ body {
   height: 100%;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
-
 body, p, h4 {
   margin: 0;
 }
