@@ -95,7 +95,7 @@ header .gnb ul {
 
 header .gnb ul li {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 14px;
   letter-spacing: 1px;
   float: left;
@@ -108,7 +108,11 @@ header .gnb ul li a {
   color: #fff;
 }
 
-header .gnb ul li a:hover {
+header .gnb ul li.active>a:hover {
+  color: #fff;
+}
+
+header .gnb ul li>a:hover {
   color: #fed136;
 }
 

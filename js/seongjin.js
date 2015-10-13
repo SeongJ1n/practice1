@@ -31,7 +31,7 @@ $(window).scroll(function(){
   winTop = $(window).scrollTop();
   winH = $(window).height();
 
-  var scrollLmt = winH/3
+  var scrollLmt = winH/4
 
   if(winTop < winH-scrollLmt){
     $(".navigation").children("li").removeClass("active");
