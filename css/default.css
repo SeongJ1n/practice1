@@ -12,6 +12,7 @@ color: #777;
 
 html {
   width: 100%;
+  min-width: 1160px;
   height: 100%;
 }
 
